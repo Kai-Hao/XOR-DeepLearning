@@ -57,5 +57,5 @@ Add gaussian data augmentation to the inputs with varying standard deviations (Ï
   <img src="experiment-result/XOR-gaussian-acc.png" alt="Experiment 3-acc" width="350" />
 </p>
 
-- **Left**: Training loss traversal with different gaussian sigma.  
-- **Right**: Training accuracy traversal with different gaussian sigma.  
+- **Left**: Testing loss traversal with different gaussian sigma.  
+- **Right**: Testing accuracy traversal with different gaussian sigma.  
