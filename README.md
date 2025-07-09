@@ -49,7 +49,8 @@ Add gaussian data augmentation to the inputs with varying standard deviations (Ï
 * 500 epochs
 * w/o one hot encoding
 * fix random seed (please reference experiemnt SET_SEED function)
-* comparsion with sigma = None, 0.01, 0.05, 0.1, 0.2, 0.3
+* comparsion with sigma 0.01, 0.05, 0.1, 0.2, 0.3 and without augmentation
+* activation function is Tanh
 
 <p float="left">
   <img src="experiment-result/XOR-gaussian-loss.png" alt="Experiment 3-loss" width="350" />
