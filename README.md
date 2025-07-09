@@ -11,7 +11,7 @@ Train a two-layer neural network on the XOR dataset using different activation f
 * 200 epochs
 * w/o one hot encoding
 * fix random seed (please reference experiemnt SET_SEED function)
-* comparsion with None, Sigmoid, ReLU, LeakyReLU(slope = 0.2) and Tanh
+* comparsion with Sigmoid, ReLU, LeakyReLU(slope = 0.2), Tanh and w/o activation function
 
 <p float="left">
   <img src="experiment-result/XOR-base-withoutonehot-loss.png" alt="Experiment 1-loss" width="350" />
@@ -30,7 +30,7 @@ Apply one-hot encoding to the targets and compare how the network learns under d
 * 200 epochs
 * w/ one hot encoding
 * fix random seed (please reference experiemnt SET_SEED function)
-* comparsion with None, Sigmoid, ReLU, LeakyReLU(slope = 0.2) and Tanh
+* comparsion with Sigmoid, ReLU, LeakyReLU(slope = 0.2), Tanh and w/o activation function
 
 <p float="left">
   <img src="experiment-result/XOR-base-withonehot-loss.png" alt="Experiment 2-Loss" width="350" />
@@ -42,7 +42,7 @@ Apply one-hot encoding to the targets and compare how the network learns under d
 
 ---
 
-## Experiment 3: Gaussian Input Data Augmentation (σ Comparison)
+## Experiment 3: Gaussian Data Augmentation (σ Comparison)
 
 Add gaussian data augmentation to the inputs with varying standard deviations (σ):
 * 128 experiment repeats
